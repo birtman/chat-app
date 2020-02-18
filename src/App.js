@@ -1,25 +1,11 @@
 import React from "react";
 import Contact from "./components/Contact";
+import ContactList from "./components/ContactList";
 
 function App() {
   return (
     <div className="App">
-      <Contact
-        name="Meghan James"
-        status="online"
-        nameavatar="https://randomuser.me/api/portraits/women/27.jpg"
-      />
-      <Contact
-        name="Meghan James"
-        status="offline"
-        nameavatar="https://randomuser.me/api/portraits/women/27.jpg"
-      />
-
-      <Contact
-        name="Meghan James"
-        status="online"
-        nameavatar="https://randomuser.me/api/portraits/women/27.jpg"
-      />
+      <ContactList />
     </div>
   );
 }
